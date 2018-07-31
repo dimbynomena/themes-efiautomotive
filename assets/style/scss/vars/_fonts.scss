@@ -1,0 +1,35 @@
+/*
+ * ===========
+ * Appv2 scss
+ * Fonts
+ * ===========
+ */
+
+/*
+ * Fonts declaration
+ * 
+ */
+
+@include font-face("OpenSansSemiBold",
+                   font-files(
+                    "opensans-semibold-webfont.eot",
+                    "opensans-semibold-webfont.ttf",
+                    "opensans-semibold-webfont.svg",
+                    "opensans-semibold-webfont.woff",
+                    "opensans-semibold-webfont.woff2"
+                    )
+);
+
+$font-bold      : 'OpenSansSemiBold';
+$font-normal    : 'Open Sans';
+$font-title     : 'Montserrat';
+
+
+/*
+ * Fonts effects
+ * 
+ */
+
+a:hover, a:focus{
+    text-decoration:none;
+}

@@ -1,0 +1,59 @@
+/*
+ * ===========
+ * Appv2 scss
+ * Overrides
+ * ===========
+ */
+
+/*
+ * Buttons
+ * 
+ */
+
+.btn{
+    font-size:1.3rem;
+    padding: 9px 15px;
+    font-family:$font-bold;
+    text-transform:uppercase;
+}
+
+.btn-default{
+    background: none;
+    border-color: $red;
+    color: $white;
+    &:hover, &:focus{
+        background: $white;
+        color:$red;
+    }
+}
+
+.btn-primary{
+    background: $red;
+    border-color: $red;
+    color:$white;
+    &:hover, &:focus, &:active{
+        background:$white!important;
+        color: $red!important;
+        border-color: $red!important;
+    }
+}
+
+.btn-default{
+    background: none;
+    border-color: $black;
+    color:$black;
+    &:hover, &:focus, &:active{
+        background:$red!important;
+        color: $white!important;
+        border-color: $red!important;
+    }
+}
+
+/*
+ * Grid
+ * 
+ */
+
+.row-centered{
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+/*
+ * ===========
+ * Appv2 scss
+ * Index
+ * ===========
+ */
+
+@import "compass/css3";
+/*
+ * Import variables
+ */
+
+@import "vars/colors";
+@import "vars/fonts";
+
+/*
+ * Import layouts
+ */
+
+@import "layouts/global";
+@import "layouts/overrides";
+
+/*
+ * Import bundles
+ */
+
+@import "bundles/home";
+@import "bundles/page";
+@import "bundles/applications";
+@import "bundles/products";
+@import "bundles/news";
+@import "bundles/article";
+@import "bundles/evenements";
+@import "bundles/jobs";

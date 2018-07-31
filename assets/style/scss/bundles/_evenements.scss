@@ -1,0 +1,64 @@
+/*
+ * ===========
+ * Appv2 scss
+ * Evenements
+ * ===========
+ */
+
+/*
+ * Block evenements
+ * 
+ */
+
+.block_evenement{
+    .caption{
+        margin-top: 25px;
+        margin-bottom: 50px;
+        border-left: solid;
+        border-left-color: $red;
+        border-left-width: 2px;
+        .header{
+            background-color:$light-background;
+            padding: 10px;
+            margin-bottom: 15px;
+            h2{
+                font-size: 2rem;
+                text-transform: uppercase;
+                color:$red;
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+        .content{
+            padding: 5px 20px 5px 20px;
+        }
+    }
+    .details{
+        background-color: $light-background;
+        padding: 25px;
+        margin-bottom: 20px;
+        li{
+            display: inline-block;
+            text-align: center;
+            @include transition(150ms);
+            line-height: 2rem;
+            font-weight: bold;
+            &:hover{
+                color: $red;
+            }
+            i{
+                margin-bottom: 8px;
+                display: block;
+                font-size: 2rem;
+            }
+            span{
+                display: block;
+                font-style: italic;
+                font-weight: 100;
+            }
+            a{
+                color: $black;
+            }
+        }
+    }
+}

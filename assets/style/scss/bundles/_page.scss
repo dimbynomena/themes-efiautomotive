@@ -1,0 +1,65 @@
+/*
+ * ===========
+ * Appv2 scss
+ * Page
+ * ===========
+ */
+
+/*
+ * Content
+ * 
+ */
+
+.content{
+    .body{
+        margin-bottom: 40px;
+        margin-top: 30px;
+        font-size: 1.3rem;
+    }
+    .panel-default{
+        background-color:none;
+        @include border-radius(0px);
+        border: none;
+        @include box-shadow(0px 0px 0px 0px $white);
+        .panel-heading{
+            background-color:$light-background;
+            border: none;
+            padding: 20px 15px;
+        }
+        h4{
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: bold;
+            a.active{
+                color:$red;
+            }
+        }
+        .panel-body{
+            box-sizing: content-box;
+            border-top: none !important;
+            padding: 0px 15px 15px 15px!important;
+            img{
+                width: 100%;
+            }
+            .caption{
+                border-left: solid;
+                border-left-width: 2px;
+                border-left-color: $red;
+                padding: 15px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+.product-categories.corporate{
+    max-width: 1240px;
+    margin: auto;
+    padding-bottom: 0px;
+    .element{
+        margin: 0 3px 15px 3px;
+        .box{
+            border: none!important;
+        }
+    }
+}

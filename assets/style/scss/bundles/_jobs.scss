@@ -1,0 +1,144 @@
+/*
+ * ===========
+ * Appv2 scss
+ * Jobs
+ * ===========
+ */
+
+/*
+ * Jobs
+ * 
+ */
+
+.block_jobs{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    .caption{
+        margin-top: 25px;
+        margin-bottom: 50px;
+        border-left: solid;
+        border-left-color: $red;
+        border-left-width: 2px;
+        .header{
+            background-color:$light-background;
+            padding: 10px;
+            margin-bottom: 15px;
+            h2{
+                font-size: 2rem;
+                text-transform: uppercase;
+                color:$red;
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+        .content{
+            padding: 5px 20px 5px 20px;
+        }
+    }
+    .filters{
+        padding-right: 50px;
+        label{
+            font-size: 1.3rem;
+        }
+        select.form-control{
+            height: 40px;
+        }
+    }
+    .list-offers{
+        padding-left: 25px;
+        hr{
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+    }
+    .job{
+        a{
+            color: $red;
+            font-family: $font-bold;
+        }
+        span{
+            font-size: 1.3rem;
+        }
+        .date{
+            font-size: 1.1rem;
+            display: block;
+            margin-top: -6px;
+        }
+    }
+    .localisation{
+        text-align: right;
+    }
+}
+
+#myOfferModal{
+    .header{
+        h2{
+            display: none;
+        }
+        .caption{
+            border: none;
+            max-width: none;
+            padding: 0px;
+        }
+    }
+    .wpcf7-list-item-label, .wpcf7-form-control{
+        color: $black!important;
+    }
+}
+
+.block_offer{
+    .caption{
+        margin-top: 25px;
+        margin-bottom: 50px;
+        border-left: solid;
+        border-left-color: $red;
+        border-left-width: 2px;
+        .header{
+            background-color:$light-background;
+            padding: 10px;
+            margin-bottom: 15px;
+            h2{
+                font-size: 2rem;
+                text-transform: uppercase;
+                color:$red;
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+        .content{
+            padding: 5px 20px 5px 20px;
+        }
+    }
+    .details{
+        background-color: $light-background;
+        padding: 25px;
+        margin-bottom: 20px;
+        li{
+            display: inline-block;
+            text-align: center;
+            @include transition(150ms);
+            line-height: 2rem;
+            font-weight: bold;
+            &:hover{
+                color: $red;
+            }
+            i{
+                margin-bottom: 8px;
+                display: block;
+                font-size: 2rem;
+            }
+            span{
+                display: block;
+                font-style: italic;
+                font-weight: 100;
+            }
+            a{
+                color: $black;
+            }
+        }
+    }
+    h2.subtitle{
+        color: $red;
+        font-size: 2rem;
+    }
+}

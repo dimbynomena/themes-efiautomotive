@@ -1,0 +1,25 @@
+/*
+ Theme Name:   Efi Automotive
+ Theme URI:    https://efi-automotive.com
+ Description:  Thème enfant de Salien pour Efi Automotive
+ Author:       Morgann collet <KiweeRouge>
+ Author URI:   https://kiweerouge.com
+ Template:     salient
+ Version:      1.0.0
+*/
+#job-country > option:nth-child(24), 
+#job-country > option:nth-child(23),
+#job-country > option:nth-child(22),
+#job-country > option:nth-child(21),
+#job-country > option:nth-child(20),
+#job-country > option:nth-child(19),
+#job-country > option:nth-child(18),
+#job-country > option:nth-child(17),
+#job-country > option:nth-child(16),
+#job-country > option:nth-child(15),
+#job-country > option:nth-child(14),
+#job-country > option:nth-child(13),
+#job-country > option:nth-child(12)
+{
+    display: initial !important;
+}

@@ -1,0 +1,128 @@
+/*
+ * ===========
+ * Appv2 scss
+ * News
+ * ===========
+ */
+
+/*
+ * Block news
+ * 
+ */
+
+.block_news{
+    &.category{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .container-fluid{
+        max-width: 1400px;
+    }
+    h3{
+        color: $red;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    hr{
+        border-top: solid;
+        border-top-color: $red;
+        border-top-width: 2px;
+        border-bottom: none;
+        margin-top: 0px;
+    }
+    .category{
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .article{
+        margin-bottom: 15px;
+        margin-top: 15px;
+        .caption{
+            background-color: $light-background;
+            border-left: solid;
+            border-left-color: $red;
+            border-left-width:2px;
+            display: block;
+            @include transition(150ms);
+            position: relative;
+            &:hover{
+                background-color: darken($light-background, 2);
+                @include transform(scale(1.01));
+                @include box-shadow(0px 0px 20px $box-shadow);
+                h3{
+                    color:$red;
+                }
+            }
+        }
+        .image{
+            height: 250px;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .imagepost{
+            width: 100%;
+        }
+        h4{
+            text-transform: uppercase;
+            color:$red;
+            font-size: 1.3rem;
+            line-height: 1.7rem;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top:10px;
+        }
+        p{
+            font-size: 1.3rem;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom:0px;
+            color:$black;
+        }
+        small{
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom:10px;
+            color:$black;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+        h4, p {
+            margin: 0px;
+        }
+        &.event{
+            p{
+                padding-bottom: 5px;
+            }
+            .caption{
+                .date, .places{
+                    position: absolute;
+                    left: 10px;
+                    font-family: $font-bold;
+                    color: $white;
+                    i{
+                        display: inline-block;
+                        width: 20px;
+                    }
+                    &:hover, &:focus, &:active{
+                        color: $white;
+                    }
+                }
+                .places{
+                    top: 35px;
+                }
+                .date{
+                    top: 10px;
+                }
+            }
+        }
+    }
+}
+#custom_recent-posts-2 h5 {
+ display:block;
+}
+a.caption {
+    border:1px solid #f2f1f1;
+}

@@ -1,0 +1,46 @@
+.current-menu-item a{
+    color:#dc0014!important;
+}
+.carousel-control{
+    width: 25px;
+    left: 15px !important;
+    bottom: 50%;
+    height: 25px;
+    font-size: 3rem;
+    top: auto;
+    margin-bottom: -25px;
+    background: none!important;
+}
+#carousel-home .caption {
+    left: 100px;
+    right: 100px;
+}
+.carousel-control.right{
+    left: 40px !important;
+}
+#header-outer #logo img {
+    max-height: 75px!important;
+}
+.block_widgets .block_cta .caption img{
+    height: 90px;
+}
+.block_cta h2 {
+    color: #FFFFFF;
+}
+.job_listings .company_logo {
+    width: auto !important;
+    height: 30px!important;
+    margin-top: 4px!important;
+}
+.product-categories .element .image .icone {
+    background-color: rgba(68, 68, 68, 0.8);
+}
+.product-grid-products .category .category-image .icone {
+    background-color: rgba(68, 68, 68, 0.8);
+}
+.block_rs{
+    margin-top: -20px;
+}
+.block_rs a{
+    margin-right: 5px;
+}
